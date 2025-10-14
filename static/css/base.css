@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+:root {
+    /**Fonts**/
+    --title: 'BBH Sans Bogle', sans-serif;
+    --main-font: 'Titillium Web', sans-serif;
+
+    /**Colors**/
+    --background: #111D13;
+    --blue: #587B7F;
+    --lightblue:#C6D8FF;
+    --offwhite: #F5F3F4;
+    --eggplant: #684551;
+
+    /** Utils**/
+    --small-box-shadow: 1px -1px 7px 0px black  ;
+    --border: 1px solid #00000030;
+}
+/*header*/
+
+.navbar {
+    background-color: var(--background);
+    box-shadow: var(--small-box-shadow);
+}
+
+a.nav-link {
+    color: var(--lightblue);
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--main-font);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--title);
+}
+
+main {
+    flex: 1 0 auto;
+    background-color: var(--background);
+}
+
+/**Footer**/
+footer {
+    flex-shrink: 0;
+   
+}
